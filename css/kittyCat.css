@@ -26,21 +26,23 @@ html {
 
 /* ===== MAIN CONTENT ===== */
 
-
 .mainContent {
     background-color: pink;
     display:inline-block;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    width: 100%;
 }
 
 .mainContent h2 {
     font-size: 1.3em;
     margin-top: 4.5em;
     margin-bottom: 0.5em;
+    width: 100%;
 }
 
 #photoGallery {
+    display: inline-block;
     width: 45em;
 }
 
