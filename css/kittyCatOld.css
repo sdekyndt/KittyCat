@@ -9,7 +9,9 @@ body {
 
 .header {
     background-color: rgba(255,255,255,1);
-    float: left;
+    position: absolute;
+    left: 0;
+    top: 0;
     width: 100%;
 }
 
@@ -34,7 +36,7 @@ body {
 
 .mainContent h2 {
     font-size: 1.3em;
-    margin-bottom: 0.5em;
+    margin-top: 5em;
 }
 
 #photoWrapper {
