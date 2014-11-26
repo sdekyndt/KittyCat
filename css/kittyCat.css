@@ -43,19 +43,19 @@ body {
 
 .photoUnitContainer {
     display: inline-block;
+    margin: 0.5em;
     position: relative;
-    width: 12.5em;
+    width: 12em;
 }
 
 .photoUnitContainer img {
-    margin: 0.5em;
     width: 12em;
 }
 
 .photoCaption {
     background-color: rgba(0,0,0,0.5);
     color: rgba(255,255,255,1);
-    margin: 0.5em;
+    line-height: 1.5em;
     width: 12em;
     position: absolute;
     bottom: 4px;
