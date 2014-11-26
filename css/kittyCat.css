@@ -56,8 +56,7 @@ html {
 
 .photoItem {
     display: block;
-    margin: auto;
-    max-height: 100%;
+    height: 100%;
     width: 100%;
 }
 
