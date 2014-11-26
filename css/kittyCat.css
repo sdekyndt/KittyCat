@@ -1,0 +1,62 @@
+/* ===== BODY ===== */
+
+body {
+    background-color: pink;
+}
+
+/* ===== HEADER ===== */
+
+.header {
+    background-color: rgba(255,255,255,1);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.75em;
+    margin-left: 0.5em;
+}
+
+/* ===== MAIN CONTENT ===== */
+
+#mainContentWrapper {
+    text-align: center;
+}
+
+.mainContent {
+    display:inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.mainContent h2 {
+    font-size: 1.3em;
+    margin-top: 5em;
+}
+
+#photoWrapper {
+    width: 45em;
+}
+
+.photoUnitContainer {
+    display: inline-block;
+    position: relative;
+    width: 12.5em;
+}
+
+.photoUnitContainer img {
+    margin: 0.5em;
+    width: 12em;
+}
+
+.photoCaption {
+    background-color: rgba(0,0,0,0.5);
+    color: rgba(255,255,255,1);
+    margin: 0.5em;
+    width: 12em;
+    position: absolute;
+    bottom: 4px;
+}
