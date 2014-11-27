@@ -30,13 +30,13 @@ html {
     background-color: pink;
     display:inline-block;
     font-family: Arial, Helvetica, sans-serif;
+    padding-top: 4.5em;
     text-align: center;
     width: 100%;
 }
 
 .mainContent h2 {
     font-size: 1.3em;
-    margin-top: 4.5em;
     margin-bottom: 0.5em;
     width: 100%;
 }
@@ -49,14 +49,13 @@ html {
 .photoContainer {
     display: inline-block;
     margin: 0.5em;
-    height: 15em;
     width: 12em;
     position: relative;
 }
 
 .photoItem {
     display: block;
-    height: 100%;
+    height: auto;
     width: 100%;
 }
 
